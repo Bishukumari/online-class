@@ -1,0 +1,555 @@
+/*project1*/
+.nav{
+    background-color:white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex ;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.25);
+}
+.nav-top{
+    position:fixed;
+    top: 1px;;
+    right: 1px;
+    left: 1px;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    padding: 10px;
+
+}
+.nav-side{
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.nav-side a{
+    text-decoration:none ;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: conmic,sens-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav-side a:hover{
+    color: orange;
+    transition: all 1s ease;
+}
+.main{
+    background-image: url("vid/WhatsApp\ Image\ 2021-07-09\ at\ 21.10.12\ \(1\).jpeg");
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.main .main-content{
+
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.main .main-content h2{
+    color:white;
+    font-size: 40px;
+    padding: 20px;
+    font-family: conmic,sens-serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 2px 2px  cornflowerblue;
+}
+.main .main-content h2 span{
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.9px;
+    color:white;
+    text-shadow: none;
+    font-weight: 600;
+    line-height: 20px;
+}
+.main .main-content .btn{
+    margin-top: 50px;
+}
+.main .main-content .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: wheat;
+    font-family: conmic,sens-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.main .main-content .btn a:hover{
+    background-color: black;
+    color: coral;
+    border: none;
+    border-bottom: 4px solid coral;
+    transition: 0.5s;
+}
+
+.product{
+    padding-bottom: 50px;
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align:center ;
+    padding: 20px;
+    text-shadow: 2px 2px gray;
+}
+.product .product-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+.product .product-container .item h3{
+     text-align: center;
+     color: coral;
+     font-weight: bold;
+}
+
+.product .product-container .item{
+    width:30%;
+    margin: 5%;
+    height: auto;
+    
+}
+.product .product-container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+}
+.product .product-container .item .item-img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product-container .item .item-content{
+    text-align: center;
+}
+.product .product-container .item .item-content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: conmic,sens-serif;
+}
+.product .product-container .item .item-content p{
+    padding: 10px;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+}
+.product .product-container .item .item-content a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: wheat;
+    font-family: conmic,sens-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.product .product-container .item .item-content a:hover{
+    background-color: black;
+    color: coral;
+    border: none;
+    border-bottom: 4px solid coral;
+    transition: 0.5s;
+}
+.product .product-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .product-btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: wheat;
+    font-family: conmic,sens-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.product .product-btn a:hover{
+    background-color: black;
+    color: coral;
+    border: none;
+    border-bottom: 4px solid coral;
+    transition: 0.5s;
+
+}
+.keypoint{
+    padding: 50px;
+
+}
+.keypoint h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: conmic,sens-serif;
+    font-weight: bolder;
+    line-height: 25px;
+    text-shadow: 2px 2px  gray;
+
+}
+.keypoint .key-container{
+    display: flex;
+}
+.keypoint .key-container .key-content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoint .key-container .key-content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    font-weight: bold;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+}
+.keypoint .key-container .key-content li:hover{
+    background-color: white;
+    color: coral;
+    border: none;
+    border-bottom: 4px solid coral;
+    transition: 0.5s;
+}
+.keypoint .key-container key-img{
+    width: 35px;
+    float: right;
+   
+}
+
+.keypoint .key-container key-img2{
+    width: 35px;
+    flex-flow: column;
+    
+   
+}
+.keypoint .key-container{
+    display: flex;
+}
+.keypoint .key-container .key-content2{
+    width: 40%;
+    padding: 20px;
+    float: right;
+}
+.keypoint .key-container .key-content2 li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-family: conmic,sens-serif;
+    font-weight: bold;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.13);
+
+}
+.keypoint .key-container .key-content2 li:hover{
+    background-color: white;
+    color: coral;
+    border: none;
+    border-bottom: 3px solid coral;
+    transition: 0.5s;
+}
+.testi{
+    padding: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background: grey;
+
+}
+
+.testi .carousel-item{
+    
+    border-radius: 50%;
+    
+}
+.testi .carousel-item p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: conmic,sens-serif;
+    color: white;
+}
+.team{
+    padding: 50px;
+    background-clip: url(vid/WhatsApp\ Image\ 1.jpeg);
+
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: conmic,sens-serif;
+    font-weight: bolder;
+    line-height: 25px;
+    text-shadow: 2px 2px  gray;
+    text-transform: uppercase;
+}
+.team .team-container{
+    display: flex;
+
+}
+.team .team-container .team-viedo{
+    width: 50%;
+    padding:20px;
+    
+}
+.team .team-container .team-viedo video{
+    width: 100%;
+    
+    
+}
+.team .team-container .team-contect{
+    width: 40%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.team .team-container .team-contect p{
+    color: chocolate;
+    padding: 10px;
+    font-family: conmic,sens-serif;
+    font-size: 15px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+    
+    
+}
+.team .team-container .team-contect h6{
+    display: inline-flex;
+   color: darkblue;
+    padding: 20px;
+    font-family: conmic,sens-serif;
+    font-size: 15px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+    
+}
+
+.feed{
+
+    padding: 50px;
+    background-image: url("vid/WhatsApp Image 2021-07-09 at 21.10.12 (3).jpeg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+}
+.feed h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.feed .feed-form{
+    text-align: center;
+}
+.feed .feed-form form input{
+    width: 60%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.feed .feed-form form textarea{
+    width: 100%px;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.feed .feed-form form button{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1%;
+                color: #fff;
+                background-color: purple;
+                border: none;
+                cursor: pointer;
+                margin-right: 6%;
+                color: rgb(246, 246, 252);
+                margin-top: 4%;
+    
+}
+.feed .feed-form form button:hover{
+    background-color: black;
+    color: coral;
+    border: none;
+    border-bottom: 4px solid coral;
+    transition: 0.5s;
+}
+.feed .feed-form form button{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1%;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+    margin-right: 6%;
+    color: rgb(246, 246, 252);
+    margin-top: 4%;
+
+}
+.feed .feed-form form button:hover{
+background-color: black;
+color: coral;
+border: none;
+border-bottom: 4px solid coral;
+transition: 0.5s;
+}
+
+
+/*about html*/
+.about-us{
+    padding: 100px;
+    background-image: url(vid/WhatsApp\ Image4.jpeg);
+
+}
+.about-us h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.about-us .about-contect p{
+    padding: 10px;
+    font-size: 12px;
+    font-family: conmic,sens-serif;
+    text-align: center;
+}
+/*contact*/ 
+.contact-us{
+    padding: 100px;
+   
+}
+.contact-us h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.contact-us .g-map{
+    
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+}
+
+footer{
+     background-color: #99A3A4;
+     padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: coral;
+    font-size: 25px;
+    font-family: conmic,sens-serif;
+    font-weight: bold;
+}
+footer .psges a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+
+}
+footer .doc h3{
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: coral;
+    font-size: 25px;
+    font-family: conmic,sens-serif;
+    font-weight: bold;
+
+}
+footer .doc a:hover{
+    color: white;
+}
+
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: conmic,sens-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+
+}
+footer .social a:hover{
+    color: white;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+
+}
+footer .contact a:hover{
+    color: white;
+}
